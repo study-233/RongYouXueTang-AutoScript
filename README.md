@@ -2,7 +2,8 @@
 
 - 首先要感谢大佬 [UltramarineW](https://github.com/UltramarineW) 的 开源代码[RongYouXueTang-Automation-Script](https://github.com/UltramarineW/RongYouXueTang-Automation-Script)
 - 本人在此基础上做了对于USTB学生的登陆使用适配
-- 如果要适配其他学校，需自行修改代码里的学校代码，学校代码可以在登陆页通过F12查看
+- 如果要适配其他学校，可自行修改代码里的学校代码，代码中罗列了学校和对应的代码
+
 # 融优学堂自动化脚本
 
 >   仅供学习交流
@@ -30,7 +31,7 @@ cd RongYouXueTang-Automation-Script
 pip install tqdm selenium ddddocr
 ```
     
-3.  编辑`main.py` 更改其中的username与password
+3.  编辑`main.py` 更改其中的username、password、school_code
 
 4. 在terminal中运行脚本
 
